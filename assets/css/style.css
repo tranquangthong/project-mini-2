@@ -131,6 +131,11 @@
   line-height: 27px;
   color: var(--color-text);
 }
+@media (max-width: 991.98px) {
+  .home-feature {
+    margin-top: 0;
+  }
+}
 /*End Section-2 */
 /*Section-3 */
 .section-3 {
@@ -161,6 +166,14 @@
 }
 .section-4 .content .desc {
   color: var(--color-text);
+}
+@media (max-width: 991.98px) {
+  .section-4 {
+    padding: 50px;
+  }
+  .section-3 .inner-content .title {
+    margin-top: 20px;
+  }
 }
 /*End Section-4 */
 /* Work Process */
